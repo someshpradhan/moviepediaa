@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<androidx.cardview.widget.CardView
+    android:layout_width="180dp"
+    android:layout_height="250dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="22dp"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/white">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_recyclerobject_image"
+        android:scaleType="fitXY"
+
+        />
+
+</androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/movie_name"
+         />
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginBottom="8dp"
+      android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:id="@+id/rating_search" />
+
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+          android:id="@+id/star_search" />
+
+
+  </LinearLayout>
+</LinearLayout>
